@@ -2,6 +2,10 @@ body{
   background-color:#AFEEEE;
 }
 
+a visited{
+    color:#DB7093;
+}
+
 h1{
   text-align: center;
   font-size: 100px;
@@ -62,11 +66,8 @@ img{
 
 #right{
   float:right;
-  height: 500px;
-  width: 800px;
   font-size: futura;
   font-size: 20px;
-  background-color: #FFFFFF;
 }
 
 #footer{
@@ -78,7 +79,4 @@ img{
   height: 90px;
 }
 
-a visited{
-    color:#DB7093;
-}
 
