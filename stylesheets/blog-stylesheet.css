@@ -40,6 +40,7 @@ li {
   position: fixed;
   top:10px;
   left:50%;
+  font-size: 20px;
   margin-left:-254px;
 }
 
@@ -60,12 +61,12 @@ img{
 }
 
 #right{
-  width:45%;
   float:right;
   height: 500px;
-  width: 500px;
+  width: 800px;
   font-size: futura;
   font-size: 20px;
+  background-color: #FFFFFF;
 }
 
 #footer{
@@ -74,7 +75,7 @@ img{
   bottom: -20px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  height: 75px;
+  height: 90px;
 }
 
 a visited{
