@@ -2,7 +2,82 @@ body{
   background-color:#AFEEEE;
 }
 
+h1{
+  text-align: center;
+  font-size: 100px;
+  font-family: futura;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: 80px;
+  font-family: futura;
+}
+
+h3{
+  font-size: 60px;
+  font-family: futura;
+}
+
+ul{
+  list-style-type: none;
+  position: fixed;
+  margin: -10px;
+}
+
+li {
+  display: inline;
+  border: 2px solid #191970;
+  color: #F8F8FF;
+  padding: 5px;
+  font-family: futura;
+  font-size: 20px;
+  border-radius: 5px 5px;
+  background-color: #7B68EE
+}
+
+#navbar {
+  position: fixed;
+  top:10px;
+  left:50%;
+  margin-left:-254px;
+}
+
+p{
+  font-family: futura;
+  font-size: 20px;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    box-shadow: rgba(0,0,0,0.2) 10px 10px;
+}
+
+#left{
+  width:45%;
+  float:left;
+}
+
+#right{
+  width:45%;
+  float:right;
+  height: 500px;
+  width: 500px;
+  font-size: futura;
+  font-size: 20px;
+}
+
+#footer{
+  clear: both;
+  position: relative;
+  bottom: -20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 75px;
+}
+
 a visited{
-color:#DB7093;
+    color:#DB7093;
 }
 
