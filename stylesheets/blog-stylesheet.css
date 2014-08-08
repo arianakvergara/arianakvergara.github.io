@@ -56,7 +56,7 @@ p{
 }
 
 div > p{
-  margin:100px;
+  margin:15px;
 }
 
 img{
@@ -79,7 +79,7 @@ div > img  {
   float:right;
   font-size: futura;
   font-size: 20px;
-  width:45%;
+  width:50%;
 }
 
 #footer{
