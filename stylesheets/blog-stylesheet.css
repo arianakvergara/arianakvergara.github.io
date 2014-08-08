@@ -60,8 +60,8 @@ div > p{
 }
 
 img{
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: auto;
     box-shadow: rgba(0,0,0,0.2) 10px 10px;
 }
 
