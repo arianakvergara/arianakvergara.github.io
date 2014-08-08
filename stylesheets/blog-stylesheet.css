@@ -55,10 +55,19 @@ p{
   text-align: justify;
 }
 
+div > p{
+  margin:100px;
+}
+
 img{
     height: 500px;
     width: 500px;
     box-shadow: rgba(0,0,0,0.2) 10px 10px;
+}
+
+div > img  {
+    margin: 10px;
+    border: 1px;
 }
 
 #left{
@@ -70,6 +79,7 @@ img{
   float:right;
   font-size: futura;
   font-size: 20px;
+  width:45%;
 }
 
 #footer{
