@@ -70,6 +70,12 @@ div > img  {
     border: 1px;
 }
 
+div > a{
+    font-family: futura;
+    font-size: 40px;
+
+}
+
 #left{
   width:45%;
   float:left;
