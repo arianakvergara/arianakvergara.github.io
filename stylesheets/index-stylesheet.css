@@ -1,0 +1,91 @@
+header {
+  background-color: #FFE4B5;
+  padding: 10px;
+}
+
+h1{
+  font-family:"Courier New";
+  font-size:40px;
+  text-align: center;
+}
+
+img {
+  height: 600px;
+  width: 450px;
+  padding:5px;
+  box-shadow: rgba(0,0,0,0.2) 10px 10px;
+  margin-right:350px;
+  margin-bottom: 50px;
+}
+
+
+aside{
+    position: absolute;
+    left: 0px;
+    border: 3px solid #000000;
+    padding: 20px;
+    border-radius: 5px 5px;
+    background-color: #000080;
+    width:300px;
+    font-family: "Courier New";
+    font-style: bold;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 200px;
+    float:left;
+  }
+
+aside>a{
+    font-style: bold;
+}
+
+a{
+    color:#00FFFF;
+  }
+
+a:hover{
+    color:#9932CC;
+  }
+
+a:visited{
+    color:#9932CC;
+  }
+
+#bike{
+    float: right;
+}
+
+
+ul{
+  list-style-type: none;
+  clear:right;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+li {
+  display: inline;
+  border: 3px solid #000000;
+  padding: 50px;
+  border-radius: 5px 5px;
+  background-color: #CD5C5C;
+}
+
+li> a{
+  font-family: 'entypo';
+  font-size: 50px;
+}
+
+h3{
+  font-family: "Courier New";
+}
+
+footer{
+  bottom:0;
+  width:100%;
+  background-color: #FFE4B5;
+  clear:both;
+  padding:5px;
+}
