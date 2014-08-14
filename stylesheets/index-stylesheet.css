@@ -10,7 +10,7 @@ h1{
 }
 
 img {
-  height: 600px;
+  height: 550px;
   width: 450px;
   padding:5px;
   box-shadow: rgba(0,0,0,0.2) 10px 10px;
@@ -25,13 +25,13 @@ aside{
     border: 3px solid #000000;
     padding: 20px;
     border-radius: 5px 5px;
-    background-color: #000080;
+    background-color: #87CEEB;
     width:300px;
     font-family: "Courier New";
     font-style: bold;
     font-size: 20px;
     margin-left: 50px;
-    margin-top: 200px;
+    margin-top: 10%;
     float:left;
   }
 
@@ -40,7 +40,7 @@ aside>a{
 }
 
 a{
-    color:#00FFFF;
+    color:#FFFAFA;
   }
 
 a:hover{
@@ -70,7 +70,7 @@ li {
   border: 3px solid #000000;
   padding: 50px;
   border-radius: 5px 5px;
-  background-color: #CD5C5C;
+  background-color: #F08080;
 }
 
 li> a{
