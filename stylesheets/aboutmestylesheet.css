@@ -53,6 +53,11 @@ article{
   width:40%;
 }
 
+ol>li{
+  font-family: "Courier New";
+  font-size:20px;
+}
+
   ul{
   list-style-type: none;
   clear:right;
@@ -62,7 +67,7 @@ article{
 }
 
 
-li {
+ul> li {
   display: inline;
   border: 3px solid #000000;
   padding: 50px;

@@ -29,7 +29,7 @@ img {
 
 a{
     color:#4169E1;
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Courier New";
     font-style: bold;
   }
@@ -58,4 +58,27 @@ footer{
   background-color: #FFE4B5;
   clear:both;
   padding:5px;
+  margin-top: 100px;
 }
+
+ol{
+  font-family: "Courier New";
+  font-size:20px;
+}
+
+  nav{
+  list-style-type: none;
+  clear:both;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: 3px solid #000000;
+  padding: 50px;
+  border-radius: 5px 5px;
+  background-color: #F08080;
+    }
+
+nav> a{
+  font-family: 'entypo';
+  font-size: 50px;
+  }
