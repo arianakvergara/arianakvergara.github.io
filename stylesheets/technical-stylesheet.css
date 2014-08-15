@@ -1,0 +1,103 @@
+body{
+  background-color:#AFEEEE;
+}
+
+a visited{
+    color:#DB7093;
+}
+
+h1{
+  text-align: center;
+  font-size: 100px;
+  font-family: futura;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: 80px;
+  font-family: futura;
+  text-align: center;
+}
+
+h3{
+  font-size: 60px;
+  font-family: futura;
+}
+
+ul{
+  list-style-type: none;
+  position: fixed;
+  margin: -10px;
+}
+
+li {
+  display: inline;
+  border: 2px solid #191970;
+  color: #F8F8FF;
+  padding: 5px;
+  font-family: futura;
+  font-size: 20px;
+  border-radius: 5px 5px;
+  background-color: #7B68EE
+}
+
+#navbar {
+  position: fixed;
+  top:10px;
+  left:50%;
+  font-size: 20px;
+  margin-left:-254px;
+}
+
+p{
+  font-family: futura;
+  font-size: 20px;
+  text-align: justify;
+  width:90%;
+  margin-right: 20px;
+}
+
+div > p{
+  margin:15px;
+}
+
+img{
+    height: auto;
+    width: auto;
+    box-shadow: rgba(0,0,0,0.2) 10px 10px;
+    width:100%;
+}
+
+div > img  {
+    margin: 10px;
+    border: 1px;
+}
+
+div > a{
+    font-family: futura;
+    font-size: 40px;
+
+}
+
+#left{
+  width:45%;
+  float:left;
+}
+
+#right{
+  float:right;
+  font-size: futura;
+  font-size: 20px;
+  width:50%;
+}
+
+#footer{
+  clear: both;
+  position: relative;
+  bottom: -20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 90px;
+}
+
+

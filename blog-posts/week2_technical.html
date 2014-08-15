@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/technical-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../icomoon/style.css">
+  </head>
+  <title>Relative, Absolute and Fixed Positions:OH MY!</title>
+  <body>
+    <div id="navbar">
+        <ul>
+          <li><a href="arianakvergara.github.io">Home</a></li>
+          <li><a href="https://plus.google.com/111849365251181826904/posts">Google</a></li>
+          <li><a href="https://twitter.com/lilperuvianone">Twitter</a></li>
+          <li><a href="https://www.youtube.com/watch?v=Etx-nDCZzLo">Song of the Day</a></li>
+        </ul>
+      </div>
+    <h1>LilPeruvianOne</h1>
+    <h2>Relative, Absolute and Fixed Positions:OH MY!!</h2>
+    <h3>August 15, 2014</h3>
+    <div id="left">
+      <img src ="http://css-tricks.com/wp-content/csstricks-uploads/absolute-inside-relative2.png"/>
+        <br>
+        <img src= "http://css-tricks.com/wp-content/csstricks-uploads/absolute-inside-relative.png"/>
+        <br>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/master/techweekimgs/Relativepositioning.png"/>
+        <br>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/master/techweekimgs/absolute.png"/>
+    </div>
+      <div id="right">
+        <p>There are a countless number of forums, blog posts and articles on relative, fixed and absolute positioning. It is daunting and the plethora of information may leave you without an "AH-HA" moment but more of an "Oh my!" moment. </p>
+
+        <p>I initially had a very vague understanding of each of the following terms: Absolute, Relative and Fixed. I knew that all of them dealt with CSS positioning and defined an element's position on a webpage yet, I managed to get the terms confused and after delving in a little deeper: I was most definitely lost. </p>
+
+        <p>Let's start from the beginning; CSS positioning properties allow you to position an element. It can place an element in front of another, behind another, to the side of another or even overlap with another. These elements are placed on your webpage by using top, bottom, left and right: however, these properties will not work unless the position property is defined by a method. There are four basic positioning methods: Static, Relative, Absolute and Fixed. These methods will determine how your elements will look on a page. </p>
+
+        <p>Quite often in the discussion of positioning, there is a rectangle metaphor. I will reiterate this. You must imagine that every single element on a webpage is a block: a rectangle. Imagine a whole set of rectangular blocks similar to those you played with in kindergarten: even though you might have wanted to change their shape or color, you never could, right? You never could build that bright green fort with pink daffodils(I guess that was only me). Well, with these blocks: you can!! You can literally set their width, height and color. You can stack them or with {display:inline} you can line them up horizontally. Positioning is like playing with blocks on a screen.</p>
+
+        <p> The first kind of way we can play is with "Static": the default positioning method. If you do not specifically state in your CSS file that you would like to use a particular method: you are "static." The element is not what you would call "positioned" you have not changed anything: it is normal. Static meaning you have made no changes: the status quo is the way it is.</p>
+
+        <p>The "Relative" position method allows you to move the block away from where the element would normally be positioned. Therefore, it is being placed "relative to itself." If one was to simply change the {position:relative} without changing the top, left, bottom or right, the block would be the same as if it were static. Yet, if you DO give it some other positioning attribute such {top:10px;} the block will move 10 pixels down from where it would normally be. The status quo has changed. </p>
+
+        <p> Here is a clear example.  The "Two" box is 20 px down and 20 px to the right of where it "should" be relative to itself.</p>
+
+        <p>With absolute positioning, you are literally determining where you would like your block to placed: exactly where you want it. You can use top, left, bottom and right to set the exact location. These values will be determined by the next parent element with relative or absolute positioning. If there is no Parent element, it will be regulated all the way back up to the <html> element. Therefore, the <html> element itself will condition the absolute element. The absolute elements do not play with others either. The absolute positioning creates a loner block. Other elements do not affect it an it does not affect other elements. </p>
+
+        <p>Finally, we come to fixed positioning. Fixed positioning is not the most common way to play with the blocks but it does have its uses. A fixed position element is placed relative to the viewport or the browser window itself. It will never leave your sight. It will stay right where it is as you scroll up or down. If you look at the lilac navigation bar at the top of your browser window: it has never moved. My navigation is fixed for your benefit.</p>
+      </div>
+
+    <div id="footer">
+      <p> Posted by: Ariana KV<br> Contact Information: twitter-@lilperuvianone<br>Send me some Tweets! <a href="https://twitter.com/lilperuvianone"/><span class="icon-twitter"></a>
+      </p>
+    </div>
+  </body>
+</html>
