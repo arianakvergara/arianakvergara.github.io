@@ -8,19 +8,19 @@ a visited{
 
 h1{
   text-align: center;
-  font-size: 100px;
+  padding-top: 3%;
   font-family: futura;
   text-decoration: underline;
 }
 
 h2{
-  font-size: 80px;
+
   font-family: futura;
   text-align: center;
 }
 
 h3{
-  font-size: 60px;
+
   font-family: futura;
 }
 
@@ -63,6 +63,7 @@ img{
     height: auto;
     width: auto;
     box-shadow: rgba(0,0,0,0.2) 10px 10px;
+    width: 90%;
 }
 
 div > img  {
