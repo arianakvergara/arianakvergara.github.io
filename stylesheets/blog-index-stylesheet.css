@@ -19,12 +19,13 @@ p{
 }
 
 img {
-  height: 500px;
-  width: 450px;
+  height: 100%;
+  width: 100%;
   padding:5px;
   box-shadow: rgba(0,0,0,0.2) 10px 10px;
   margin-right:350px;
   margin-bottom: 50px;
+  position:absolute;
 }
 
 a{
@@ -46,6 +47,7 @@ a:visited{
 
 #postlist{
   float:right;
+  width: 100%;
 }
 
 h3{
@@ -66,7 +68,7 @@ ol{
   font-size:20px;
 }
 
-  nav{
+nav{
   list-style-type: none;
   clear:both;
   text-align: center;
@@ -76,9 +78,11 @@ ol{
   padding: 50px;
   border-radius: 5px 5px;
   background-color: #F08080;
+  width: 100%
     }
 
 nav> a{
   font-family: 'entypo';
   font-size: 50px;
+  width:100%;
   }
