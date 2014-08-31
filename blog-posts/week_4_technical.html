@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../icomoon/style.css">
+  </head>
+  <title>#cycle</title>
+  <body>
+    <div id="navbar">
+        <ul>
+          <li><a href="https://arianakvergara.github.io">Home</a></li>
+          <li><a href="https://plus.google.com/111849365251181826904/posts">Google</a></li>
+          <li><a href="https://twitter.com/lilperuvianone">Twitter</a></li>
+          <li><a href="#">Song of the Day</a></li>
+        </ul>
+      </div>
+    <h1>Lil Peruvian One</h1>
+    <h2>#cycle</h2>
+    <h3>August 31, 2014</h3>
+      <div id="left">
+        <img src= "http://globalnerdy.com/wordpress/wp-content/uploads/2008/07/ruby_enumerablecycle.jpg"/>
+      </div>
+      <div id="right">
+        <p> I had no idea what Enumerable meant prior to this week. Then I realized, I actually had used Enuemrables before and they are delightful. They make life easier in Ruby and therfore facilitate my own life. Today, I will be discussing the cycle method.
+        </p>
+        <p>In simple terms, when given a collection, Enumberable #cycle creates an infinitely-repeating ordered source of its items. Ruby expects a block to act on the items and it will infinitely repeat until the break statement is encountered.
+        </p>
+        <p> #cycle is normally used on an array of some sort. Cycle passes each item to the block and once the last array item has been passed to the block, cycle starts over again at the beginning of the array. Cycle will go through the array forever unless it encounteres a break statement in the block.
+        </p>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/ff0571383611f647c32144e9c76fbd0f1819e77b/blog-posts/images/Screenshot%202014-08-31%2010.07.38.png"/>
+        <p> However, cycle may be more useful by calling out the next object in a repeating sequence. For example:
+        </p>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/ff0571383611f647c32144e9c76fbd0f1819e77b/blog-posts/images/Screenshot%202014-08-31%2010.09.29.png"/>
+        <p>You can also use the cycle method on a hash when a block is provided. You can pass each key/value pair to the block as either:
+        </p>
+        <p> 1. A two-element array, with the key element as 0 and its corresponding value as element 1.
+        </p>
+        <p> 2. Two seperate items with the key as the first item and its corresponding value as the second item.
+        </p>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/ff0571383611f647c32144e9c76fbd0f1819e77b/blog-posts/images/Screenshot%202014-08-31%2010.10.11.png"/>
+        <p> And again as we did earlier with the array we can use the next method to return the next key/value pair in a repeating sequence.
+        </p>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/ff0571383611f647c32144e9c76fbd0f1819e77b/blog-posts/images/Screenshot%202014-08-31%2010.10.54.png"/>
+      </div>
+      <div id="footer">
+      <p> Posted by: Ariana KV<br> Contact Information: twitter-@lilperuvianone<br>Send me some Tweets! <a href="https://twitter.com/lilperuvianone"/><span class="icon-twitter"></a>
+      </p>
+    </div>
+  </body>
+</html>
