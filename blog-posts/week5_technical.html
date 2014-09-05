@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../icomoon/style.css">
+  </head>
+  <title>Classes</title>
+  <body>
+    <div id="navbar">
+        <ul>
+          <li><a href="https://arianakvergara.github.io">Home</a></li>
+          <li><a href="https://plus.google.com/111849365251181826904/posts">Google</a></li>
+          <li><a href="https://twitter.com/lilperuvianone">Twitter</a></li>
+          <li><a href="https://www.youtube.com/watch?v=eOS8-ug3cCA">Song of the Day</a></li>
+        </ul>
+      </div>
+    <h1>Lil Peruvian One</h1>
+    <h2>Being CLASSY in Ruby</h2>
+    <h3>September 5, 2014</h3>
+      <div id="left">
+        <img src= "https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/c54ecab3526e00bc570216bf8cda9249efb5cd3c/blog-posts/images/jediclass_images/Screenshot%202014-09-05%2015.26.46.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/c54ecab3526e00bc570216bf8cda9249efb5cd3c/blog-posts/images/jediclass_images/Screenshot%202014-09-05%2015.30.18.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/c54ecab3526e00bc570216bf8cda9249efb5cd3c/blog-posts/images/jediclass_images/Screenshot%202014-09-05%2015.30.50.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/c54ecab3526e00bc570216bf8cda9249efb5cd3c/blog-posts/images/jediclass_images/Screenshot%202014-09-05%2015.43.27.png"/>
+      </div>
+      <div id="right">
+        <p> It has been iterated many times but I will say it once again. Everything in Ruby is an object or almost everything. Constructing objects is what we do in Ruby. Classes facilitate this process. A class is a way of organizaing and producing object with similar attributes and methods.
+        </p>
+        <p>One can create a basic class simply by using the class keyword and the name of the desired class. Conventionally speaking, class names start with a capital letter and use CamelCase instead of any underscores. In my example, I have a class called 'class Jedi'.
+        </p>
+        <p>A class begins with a method called initialize. The def initialize method is what is being 'booted up' in to each object the class creates. Now we want to name our Jedis so that we can play with a Yoda or Obi-Wan. We do this by creating an instance variable: this instance variable is inherently attached to every instance of the class. Our instance variable for name is @name. Therefore in ruby it is @name=name within the inititalize method. Here, I am creading an instance, yoda, of the class Jedi. yoda has his own @name ("Yoda") and @lightsaber("green"). Those variables belong to the yoda instance which is why they are called instance variables.
+        </p>
+        <p>Instance variables belong to a particular object and therefore, are better than global variables because they cannot be changed from anywhere from the program. It is a better idea to only be able to change certain variables from a few places.
+        </p>
+        <p>Class variables are an altogether a different beast. It takes two @@ and therefore is twice as classy. Class variables are created by two @ symbols and are attached to entire classes not just instances of class.
+        </p>
+        <p> In my final image on the left, I am showing how ruby is able to read two new instances of the class Jedi.
+        </p>
+      </div>
+      <div id="footer">
+      <p> Posted by: Ariana KV<br> Contact Information: twitter-@lilperuvianone<br>Send me some Tweets! <a href="https://twitter.com/lilperuvianone"/><span class="icon-twitter"></a>
+      </p>
+    </div>
+  </body>
+</html>
