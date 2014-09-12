@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../icomoon/style.css">
+  </head>
+  <title>Blocs, Procs & Lambdas </title>
+  <body>
+    <div id="navbar">
+        <ul>
+          <li><a href="https://arianakvergara.github.io">Home</a></li>
+          <li><a href="https://plus.google.com/111849365251181826904/posts">Google</a></li>
+          <li><a href="https://twitter.com/lilperuvianone">Twitter</a></li>
+          <li><a href="https://www.youtube.com/watch?v=DS0Fvn7oEMY">Song of the Day</a></li>
+        </ul>
+      </div>
+    <h1>Lil Peruvian One</h1>
+    <h2>Blocks, Procs & Lambdas</h2>
+    <h3>September 11, 2014</h3>
+      <div id="left">
+        <img src= "https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/4d7e80a14179e5b275d33872cfd4817f0f1406f0/blog-posts/images/blocks_procs_lambdas/Screenshot%202014-09-11%2017.34.39.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/4d7e80a14179e5b275d33872cfd4817f0f1406f0/blog-posts/images/blocks_procs_lambdas/Screenshot%202014-09-11%2017.39.14.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/4d7e80a14179e5b275d33872cfd4817f0f1406f0/blog-posts/images/blocks_procs_lambdas/Screenshot%202014-09-11%2017.53.05.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/4d7e80a14179e5b275d33872cfd4817f0f1406f0/blog-posts/images/blocks_procs_lambdas/Screenshot%202014-09-11%2018.11.17.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/4d7e80a14179e5b275d33872cfd4817f0f1406f0/blog-posts/images/blocks_procs_lambdas/Screenshot%202014-09-11%2018.15.14.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/4d7e80a14179e5b275d33872cfd4817f0f1406f0/blog-posts/images/blocks_procs_lambdas/Screenshot%202014-09-11%2021.55.45.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/4d7e80a14179e5b275d33872cfd4817f0f1406f0/blog-posts/images/blocks_procs_lambdas/Screenshot%202014-09-11%2022.01.14.png"/>
+        <img src="https://raw.githubusercontent.com/arianakvergara/arianakvergara.github.io/4d7e80a14179e5b275d33872cfd4817f0f1406f0/blog-posts/images/blocks_procs_lambdas/Screenshot%202014-09-11%2018.15.03.png"/>
+      </div>
+      <div id="right">
+        <p> "A block is a bit of executable code." That seems to be the general concensus in regards to block on the numerous websites, blogs and resources I have read. Furthermore, it all seems to be about closure (just like in most relationships). Closure in Ruby-lingo, fills three distinct criteria: 1.) It can be passed around as a value. 2.) It can be executed on demand by anyone who has that value. 3.) It can refer to variables within the context of the variables' creation. Blocks, Procs and Lambdas all have distinct closures within Ruby. Let's go through them.
+        </p>
+        <p>Blocks, believe it or not, are the least straight-forward of the three. Blocks are not explicitly stated: blocks are considered nameless methods. Methods like each and times are easily combined with blocks which is what makes them most convenient. In addition, they are simple.
+        </p>
+        <p>Procs are memorable blocks. Blocks unfortunately are not complete objects. They do not have the capacity to be saved to variables and do not have all the powers or abilities to be saved to real objects. When you write a proc once, you can use it numerous times again. A block is a version of a Proc that can only be used once. Therefore, a Proc is a procedure that can be used more than once.
+        </p>
+        <p>Proc.new defines a new procedure. We can pass Proc to a method that would otherwise normally take a block. Procs are complete objects that have all the powers and abilities of objects. Procs can be used over and over without any sort of rewrite. You do not have to retype the content of a block everytime you want to execute a certain bit of code. Procs are useful as an attribute and you can save them as a variable with the ampersand (&proc).
+        </p>
+        <p>Now you may be wondering when one should use a block and when one use a Proc. Excellent question.
+        </p>
+        <p>When should I use a block?
+        </p>
+        <p>If your method is breaking an object down into smaller pieces and you want your user to interact with bits of code.
+        </p>
+        <p>If you want to run multiple expression automatically. i.e. within a database.
+        </p>
+        <br>
+        <p>When should I use a Proc?
+        </p>
+        <p>If you want to reuse a block of code multiple times.
+        </p>
+        <p>If your method has more than one callback.
+        </p>
+        <p>Now for Lambdas. Lambdas are very very similar to Procs but the KEY difference is that Lambdas check the number of arguments passed. In fact, Lambdas are useful in the same situations in which you would use a Proc. However, there are two differences. Again, lambdas check the number of arguments passed to it while a proc does not. A lambda will actually throw an error if you pass it the wrong number of arguments whereas a proc will ignore unexpected arguments with a nil. In addition, procs and lambdas treat the return keyword distinctly.'Return' inside of a lambda triggers the code right outside of the lambda code. 'Return' inside of a proc triggers the code outside of the code where the proc is being executed. As Proc is to &, Lambda is to :. Therefore one can call (:lambda).
+        </p>
+        <p>Blocks, procs or lambdas regardless for what the situation calls for they all provide closure. It is simply a matter of what kind of closure you want.
+        </p>
+      </div>
+      <div id="footer">
+      <p> Posted by: Ariana KV<br> Contact Information: twitter-@lilperuvianone<br>Send me some Tweets! <a href="https://twitter.com/lilperuvianone"/><span class="icon-twitter"></a>
+      </p>
+    </div>
+  </body>
+</html>
