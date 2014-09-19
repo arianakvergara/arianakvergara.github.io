@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../icomoon/style.css">
+  </head>
+  <title>OptimizationofSQL</title>
+  <body>
+    <div id="navbar">
+        <ul>
+          <li><a href="https://arianakvergara.github.io">Home</a></li>
+          <li><a href="https://plus.google.com/111849365251181826904/posts">Google</a></li>
+          <li><a href="https://twitter.com/lilperuvianone">Twitter</a></li>
+          <li><a href="https://www.youtube.com/watch?v=PsO6ZnUZI0g">Song of the Day</a></li>
+        </ul>
+      </div>
+    <h1>Lil Peruvian One</h1>
+    <h2>OPTIMIZATION * SQL</h2>
+    <h3>September 19, 2014</h3>
+      <div id="left">
+        <p>Figure 1</p>
+        <img src= "https://raw.githubusercontent.com/arianakvergara/phase-0-unit-3/09ce5a51a8d5f4604aa291049410a393b7422db1/week-7/imgs/Figure_1.png?token=8249560__eyJzY29wZSI6IlJhd0Jsb2I6YXJpYW5ha3ZlcmdhcmEvcGhhc2UtMC11bml0LTMvMDljZTVhNTFhOGQ1ZjQ2MDRhYTI5MTA0OTQxMGEzOTNiNzQyMmRiMS93ZWVrLTcvaW1ncy9GaWd1cmVfMS5wbmciLCJleHBpcmVzIjoxNDExNzU2OTg1fQ%3D%3D--e79c0cb62d67ad84b411a1227cbd01d35508819f"/>
+        <p>Figure 2</p>
+        <img src="https://raw.githubusercontent.com/arianakvergara/phase-0-unit-3/09ce5a51a8d5f4604aa291049410a393b7422db1/week-7/imgs/Figure_2.png?token=8249560__eyJzY29wZSI6IlJhd0Jsb2I6YXJpYW5ha3ZlcmdhcmEvcGhhc2UtMC11bml0LTMvMDljZTVhNTFhOGQ1ZjQ2MDRhYTI5MTA0OTQxMGEzOTNiNzQyMmRiMS93ZWVrLTcvaW1ncy9GaWd1cmVfMi5wbmciLCJleHBpcmVzIjoxNDExNzU3MDUyfQ%3D%3D--d92ecf55e777cf78ac5c42e939ef8542c2ffb442"/>
+        <p>Figure 3</p>
+        <img src="https://raw.githubusercontent.com/arianakvergara/phase-0-unit-3/09ce5a51a8d5f4604aa291049410a393b7422db1/week-7/imgs/Figure_3.png?token=8249560__eyJzY29wZSI6IlJhd0Jsb2I6YXJpYW5ha3ZlcmdhcmEvcGhhc2UtMC11bml0LTMvMDljZTVhNTFhOGQ1ZjQ2MDRhYTI5MTA0OTQxMGEzOTNiNzQyMmRiMS93ZWVrLTcvaW1ncy9GaWd1cmVfMy5wbmciLCJleHBpcmVzIjoxNDExNzU3MDg2fQ%3D%3D--afbe63ccffed210189e87e81804ff3bfb8558e68"/>
+        <p>Figure 4</p>
+        <img src="https://raw.githubusercontent.com/arianakvergara/phase-0-unit-3/09ce5a51a8d5f4604aa291049410a393b7422db1/week-7/imgs/Figure_4.png?token=8249560__eyJzY29wZSI6IlJhd0Jsb2I6YXJpYW5ha3ZlcmdhcmEvcGhhc2UtMC11bml0LTMvMDljZTVhNTFhOGQ1ZjQ2MDRhYTI5MTA0OTQxMGEzOTNiNzQyMmRiMS93ZWVrLTcvaW1ncy9GaWd1cmVfNC5wbmciLCJleHBpcmVzIjoxNDExNzU3MTA3fQ%3D%3D--3a40ff58cc1a4ca6c84759938923a529800aa3fb"/>
+        <p>Figure 5</p>
+        <img src="https://raw.githubusercontent.com/arianakvergara/phase-0-unit-3/09ce5a51a8d5f4604aa291049410a393b7422db1/week-7/imgs/Figure_5.png?token=8249560__eyJzY29wZSI6IlJhd0Jsb2I6YXJpYW5ha3ZlcmdhcmEvcGhhc2UtMC11bml0LTMvMDljZTVhNTFhOGQ1ZjQ2MDRhYTI5MTA0OTQxMGEzOTNiNzQyMmRiMS93ZWVrLTcvaW1ncy9GaWd1cmVfNS5wbmciLCJleHBpcmVzIjoxNDExNzU3MTQ2fQ%3D%3D--93d93b9ad5700fdf173761390eb723291cbb9cc2"/>
+      </div>
+      <div id="right">
+        <p>With a simple google search of 'optimization of SQL queries', I am led to a number of blogs promising to lower the expensive cost of queries: however, frankly, this is the most confused I have ever felt prior to writing a technical blog entry. Let's start from the beginning.
+        </p>
+        <p>An expesive query is one that has a high number of reads and a high number of CPUs. A (CPU) central processing unit is the hardware within a computer that carries out the instruction of a computer program by performing basic arithmetical, logical, and input/output operations of the system. If a query has a high number of reads, this leads one to think that either a table is not indexed properly or a query is written in such a way that appropriate indexes cannot be used. If a query has a high CPU it is called expensive since it costs a high number of central processing units and more time. One should also take in to account how many times a particular query is run since it may not have an incredibly high amount of CPU but it may be run 100 times an hour: for that reason, the query may be costly.
+        </p>
+        <p>Some SQL afficionados encourage establishing a baseline run of your SQL database prior to any changes that are made to tables or organization. After establishing a baseline database, one can query through said database with such applications as SQL Profiler or Management Studio. These applications are made with the intention of downsizing query size. One can do this by executing FIGURE 1. It aggregates the total reads and total CPUs which are sorted into columns. Then, you can see which queries are the most expensive from an aggregate perspective. The key is the grouping on ?SUBSTRING(Textdata,1,150)? : each query that is run typically has variables appended to the end of the query. It allows identical queries with different parameters to be grouped together to provide aggregate results. Playing with the number of characters allows distinct groupings.
+        </p>
+        <p> Figure 2 represents another more complex query. This query specifically totals across all queries that meet the read or CPU threshold. The counts, READS and CPU compute the percentages for each query. Once this query is run, one can identify a query to optimize. Identify a unique aspect of the query and then begin. An example is Figure 3. This is a specific attempt at identifying how to make a qury less expensive.
+        </p>
+        <p> Another method for SQL optimization of queries is restructuring in a fundamental way. Obviously, one's first choice is always to restructure the database but statements are also important. Understanding exactly what you are searching for and how it is crucial. A clear example is given by Figures 4 and 5. Obviously, it will be less costly to scan only a part of Table 3 than the entirety of table 3.
+        </p>
+        <p>Frankly, scouring throgh different optimization techniques it makes it very clear to me that knowing exactly why and how you are joing two tables is crucial. An understanding of why you are selecting and how is paramount to less expensive queries. In addition there are also techniques that use specific statements involving various SET options, such as SHOWPLAN_XML and SHOWPLAN_ALL which return the execution plan as either an XML document describing the plan using a special schema or a rowset. These become more intricate.
+        </p>
+      </div>
+      <div id="footer">
+      <p> Posted by: Ariana KV<br> Contact Information: twitter-@lilperuvianone<br>Send me some Tweets! <a href="https://twitter.com/lilperuvianone"/><span class="icon-twitter"></a>
+      </p>
+    </div>
+  </body>
+</html>
